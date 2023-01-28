@@ -1,0 +1,204 @@
+:root {
+    --main-text-color: #2E2F42;
+    --second-text-color: #434455;
+    --main-title-color: #FFFFFF;
+    --main-title-bg-color: #2E2F42;
+    --main-bg-color: #FFFFFF;
+    --second-bg-color: #F4F4FD;
+    --button-bg-color: #F4F4FD;
+    --second-btn-color: #4D5AE5;
+    --button-bg-color-active: #404BBF;
+    --button-text-color: #4D5AE5;
+    --second-btn-text-color: #FFFFFF;
+    --button-text-color-active: #FFFFFF;
+}
+
+.body {
+    font-family: 'Roboto';
+
+}
+
+.header {
+    background-color: var(--main-bg-color);
+}
+
+.header-navigation {}
+
+.header-logo {}
+
+.header-list {}
+
+.header-item {
+    
+}
+
+.header-link {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: 0.02em;
+        color: var(--main-text-color);
+    
+}
+
+.header-address {}
+
+.header-address-list {}
+
+.header-address-link {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: 0.02em;
+        color: var(--second-text-color);
+}
+
+.hero {
+    background-color: var(--main-title-bg-color);
+}
+
+.hero-title {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 56px;
+        line-height: 60px;
+        text-align: center;
+        letter-spacing: 0.02em;
+        color: var(--main-title-color);
+}
+
+.hero-button {}
+
+.about {}
+
+.hidden-about {
+   position: absolute;
+   white-space: nowrap;
+   width: 1px;
+   height: 1px;
+   overflow: hidden;
+   border: 0;
+   padding: 0;
+   clip: rect(0 0 0 0);
+   clip-path: inset(50%);
+   margin: -1px;
+}
+
+.about-list {}
+
+.about-item {}
+
+.about-pre-title {}
+
+.about-text {}
+
+.text {}
+
+.about-title {}
+
+.gallery {}
+
+.title-gallery {}
+
+.about-title-item {}
+
+.title-pic {}
+
+.team {}
+
+.team-title {}
+
+.about-team {}
+
+.team-item {}
+
+.team-pic {}
+
+.team-subtitle {}
+
+.team-text {}
+
+.subtitle {}
+
+.slogan {}
+
+.slogan-logo {}
+
+.slogan-text {}
+
+.header {}
+
+.header-navigation {}
+
+.header-logo {}
+
+.header-list {}
+
+.header-item {}
+
+.header-link {}
+
+.header-address {}
+
+.header-address-list {}
+
+.header-address-item {}
+
+.header-address-link {}
+
+.buttons {}
+
+.hidden-buttons {
+   position: absolute;
+   white-space: nowrap;
+   width: 1px;
+   height: 1px;
+   overflow: hidden;
+   border: 0;
+   padding: 0;
+   clip: rect(0 0 0 0);
+   clip-path: inset(50%);
+   margin: -1px;
+}
+
+.buttons-count {}
+
+.button-item {}
+
+.filter {}
+
+.button {}
+
+.hidden-projects {
+   position: absolute;
+   white-space: nowrap;
+   width: 1px;
+   height: 1px;
+   overflow: hidden;
+   border: 0;
+   padding: 0;
+   clip: rect(0 0 0 0);
+   clip-path: inset(50%);
+   margin: -1px;
+}
+
+.projects-list {}
+
+.projects-item {}
+
+.projects-icon {}
+
+.projects-title {}
+
+.projects-descr {}
+
+.slogan {}
+
+.slogan-logo {}
+
+.slogan-text {}
