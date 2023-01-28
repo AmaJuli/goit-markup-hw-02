@@ -17,7 +17,13 @@
     font-family: 'Roboto';
 
 }
+.list {
+    list-style: none;
+}
 
+.link {
+    text-decoration: none;
+}
 .header {
     background-color: var(--main-bg-color);
 }
@@ -45,7 +51,9 @@
 
 .header-address {}
 
-.header-address-list {}
+.header-address-list {
+
+}
 
 .header-address-link {
         font-family: 'Roboto';
@@ -93,9 +101,25 @@
 
 .about-item {}
 
-.about-pre-title {}
+.about-pre-title {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 24px;
+        letter-spacing: 0.02em;
+        color: var(--main-text-color);
+}
 
-.about-text {}
+.about-text {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: var(--main-text-color);
+}
 
 .text {}
 
@@ -103,7 +127,17 @@
 
 .gallery {}
 
-.title-gallery {}
+.title-gallery {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 40px;
+        text-align: center;
+        letter-spacing: 0.02em;
+        text-transform: capitalize;
+        color: var(--main-text-color);
+}
 
 .about-title-item {}
 
@@ -119,17 +153,45 @@
 
 .team-pic {}
 
-.team-subtitle {}
+.team-subtitle {
+        font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 24px;
+            text-align: center;
+            letter-spacing: 0.02em;
+            color: var(--main-text-color);
+}
 
-.team-text {}
+.team-text {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        text-align: center;
+        letter-spacing: 0.02em;
+        color: (--second-text-color);
+}
 
 .subtitle {}
 
-.slogan {}
+.slogan {
+    background-color: var(--main-title-bg-color);
+}
 
 .slogan-logo {}
 
-.slogan-text {}
+.slogan-text {
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: 0.02em;
+        color: #E7E9FC;
+}
 
 .header {}
 
