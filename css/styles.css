@@ -10,10 +10,11 @@
     --button-hover: #404BBF;
     --footer-hover-color: #31d0aa;
     --footer-text: #E7E9FC;
+    --footer-span-color: #F4F4FD;
 }
 /*-----------------------------------------------------*/
 
-.body {
+body {
     background-color: var(--white);
     color: var(--second-text-color);
     font-family: "Roboto", sans-serif;
@@ -143,9 +144,12 @@ letter-spacing: 0.02em;
 .slogan {
     background-color: var(--main-title-bg-color);
 }
-.slogan-logo > span {
-    color: var(--second-btn-color);
+.slogan-logo {
+    color: var(--white);
 }
 .slogan-text {
     color: var(--footer-text);
+}
+.projects-title {
+    color: var(--main-text-color)
 }
