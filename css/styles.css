@@ -9,6 +9,7 @@
     --second-btn-color: #4D5AE5;
     --button-hover: #404BBF;
     --footer-hover-color: #31d0aa;
+    --footer-text: #E7E9FC;
 }
 /*-----------------------------------------------------*/
 
@@ -31,6 +32,7 @@
 .link:hover,
 .link:focus {
     color: var(--button-hover);
+}
 
 .visually-hidden {
         position: absolute;
@@ -109,4 +111,41 @@
             line-height: 1.2;
             letter-spacing: 0.02em;
             color: var(--main-text-color);
+}
+.hero {
+    background-color: var(--main-text-color);
+}
+.hero-title {
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: var(--white);
+}
+
+.about-text {
+letter-spacing: 0.02em;
+}
+
+.gallery {
+    color: var(--second-bg-color);
+}
+.team-text {
+    letter-spacing: 0.02em;
+}
+.portfolio-link {
+    text-decoration: none;
+}
+.projects-descr {
+    letter-spacing: 0.02em;
+        color: var(--main-title-bg-color);
+}
+.slogan {
+    background-color: var(--main-title-bg-color);
+}
+.slogan-logo > span {
+    color: var(--second-btn-color);
+}
+.slogan-text {
+    color: var(--footer-text);
 }
