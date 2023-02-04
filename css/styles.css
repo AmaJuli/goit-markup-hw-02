@@ -182,6 +182,9 @@ ul {
 }
 .hero {
     background-color: var(--main-text-color);
+    text-align: center;
+        padding-top: 188px;
+        padding-bottom: 188px;
 }
 .hero-title {
     font-size: 56px;
@@ -189,6 +192,16 @@ ul {
     letter-spacing: 0.02em;
     text-align: center;
     color: var(--white);
+    margin: 0 auto 48px;
+}
+
+.about-list {
+    display: flex;
+    gap: 24px;
+}
+
+.about-item {
+    flex-basis: calc((100% - 72px) / 4);
 }
 
 .about-text {
@@ -197,7 +210,9 @@ letter-spacing: 0.02em;
 
 .gallery {
     color: var(--second-bg-color);
+    padding-bottom: 120px;
 }
+
 .team-text {
     letter-spacing: 0.02em;
 }
