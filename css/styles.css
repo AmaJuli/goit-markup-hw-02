@@ -11,6 +11,8 @@
     --footer-hover-color: #31d0aa;
     --footer-text: #E7E9FC;
     --footer-span-color: #F4F4FD;
+    --border-color: #e7e9fc;
+    --button-shadow: rgba(0, 0, 0, 0.15);
 }
 /*-----------------------------------------------------*/
 
@@ -35,6 +37,12 @@ h6 {
 ul {
     margin: 0;
     padding-left: 0;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
 }
 
 .list {
@@ -95,7 +103,7 @@ ul {
     padding: 16px 32px;
     border: none;
     border-radius: 4px;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    box-shadow: 0px 4px 4px var(--button-shadow);
     background-color: var(--second-btn-color);
     color: var(--white);
 }
@@ -104,7 +112,15 @@ ul {
     color: var(--second-btn-color);
     padding: 12px 24px;
     border-radius: 4px;
-    border: 1px solid #E7E9FC;
+    border: 1px solid var(--border-color);
+}
+.filter-item:hover,
+.filter-item:focus {
+    color: var(--white);
+        background-color: var(--button-hover);
+        border: 1px solid transparent;
+        box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
+            0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 .logo {
@@ -210,7 +226,6 @@ ul {
 }
 
 .about-list {
-    padding-top: 120px;
     display: flex;
     gap: 24px;
 }
@@ -227,7 +242,6 @@ letter-spacing: 0.02em;
 .gallery {
     color: var(--second-bg-color);
     padding-bottom: 120px;
-    padding-top: 120px;
 }
 
 .about-title {
@@ -244,14 +258,13 @@ letter-spacing: 0.02em;
         gap: 24px;
 }
 .team {
-    background-color: var(--second-bg-color);
+        background-color: var(--second-bg-color);
 }
 .team-item {
     flex-basis: calc((100% - 72px) / 4);
         box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
             0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
         border-radius: 0px 0px 4px 4px;
-        padding-bottom: ;
 }
 
 .team-title {
@@ -288,7 +301,7 @@ letter-spacing: 0.02em;
 .slogan-logo {
     color: var(--white);
     display: block;
-        margin-bottom: 16px;
+    margin-bottom: 16px;
 }
 .slogan-text {
     color: var(--footer-text);
@@ -319,8 +332,12 @@ letter-spacing: 0.02em;
     flex-basis: calc((100% - 48px) / 3);
 }
 
+.projects-title {
+    margin-bottom: 8;
+}
+
 .projects-item-wrap {
     padding: 32px 0 32px 16px;
-    border: 1px solid #e7e9fc;
+    border: 1px solid var(--border-color);
     border-top: none;
 }
